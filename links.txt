@@ -51,3 +51,4 @@ check out this link for requirments 	-	http://support.openview.hp.com/selfsolve/
 16.57.70.231 / hpuser / computerPassword
 adress of the machine in AMAS 	-	https://16.57.70.231:8445/oo/rest/v1/flows/b3b58fcc-5274-43c5-bf3b-b49f56178d04     / admin/standardPass
 c++ exmples undr linux 			-	https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorials/getopt.html
+cisco linux and many more 		- 	https://www.youtube.com/user/danscourses/playlists
