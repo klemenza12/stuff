@@ -1,0 +1,391 @@
+conjunction - съчетание
+employer    - rabotodatel
+enhanced	- usuvurshestvan
+rather      - po-skoro
+chewing     - uvchene
+inducted     - priet, vuveden
+reliable    - nadejdna
+refrain     - vuzdurja
+fame		- slava
+claim       - pretenciq, pretendiram, tvurdq
+tedoius		- dosadno
+devote		- posveten
+appropriate - celesuobrazno
+embedded    - vgraden
+beside      - do
+reside		- prebivavam    1
+verbose		- mnogosloven
+certain		- opredeleno
+superb		- prevuzhoden
+brevity		- kratkost		1
+afford		- pozvolq		1
+deprecate	- othvurlqm		1
+despite		- vupreki		1
+stray       - zabluden		
+versatility	- guvkavost		
+evaluate    - ocenka
+measure		- merki
+demand		- tursq
+implicit	- kosven		1
+implies		- predpolaga	1
+particularly - osobeno
+favor		- polza
+disclosed   - razkrita		1
+heel        - peta
+conseivably - eventualno	1	
+derivatives - proizvodni	1
+concerned   - obezpokoen	
+purpose		- prednaznachenie 	1
+comprises   - sustoi			1
+clues		- uliki
+reveal		- razkrie			1
+intent		- namerenie			1
+precedes	- predhojda          1
+differ		- razlichavat
+principle	- prinzip
+tend		- sklonen			1
+approach    - podhod, nablijavam
+depicted    - izobra		1
+vital       - jiznen
+fed		    - hranene
+stringent	- strogi			1
+gap			- praznina			1
+impose		- nalagat			1	
+pry 		- nadnicham
+prominence	- izvesten			1
+impairment  - nakurnqvane		1
+entirely    - iztzqlo			1
+queue		- opashka
+sacred		- sveshten
+prophecy	- prorochestvo
+tear		- sulza
+apart		- na chasti			1
+pledge		- zalog, davam obet				1
+substitute	- zamestitel		1
+albeit		- makar i 			1
+emphasize   - podchertavam		1	
+effort      - usilie
+presume		- predpolagam
+breach      - narushenie		1
+hobbled     - zakuzuka
+intended	- prednaznacheno	1
+obtain      - poluchi			1
+peruse		- cheta				1
+determine   - opredeli			1
+causes		- kauzi			
+thus		- po tozi nachin	1	
+deciphered  - razcheteni
+tarball     - arhiv
+tweak		- oshtipvane,drupvam
+retain      - zapazvam			1
+accuse      - obvinqvam			1
+pledge      - zalog
+fledge      - otglejdam
+breach      - narushenie
+consolidate - ukrepvam			1
+whereas		- dokato
+complication - uslojnenie
+accused     - obvinen			1
+preserve    - pazq, zapazvam	1
+fees		- taksi				1
+struggle    - borba
+strangled   - udushena			1
+harassment  - tormoz
+overruled	- otmeneno
+convinced    - ubeden			1	
+chastity    - zelomudrie		1
+forget		- zabranqvam
+beam		- luch				1
+sluggish	- muden
+endorsement - potvurjedenie		1	
+spring		- skacham			1
+odd         - necheten
+dedicated   - posveten
+occuring    - sreshtasht		1
+accuracy    - tochnost			1
+obtain      - poluchi			1
+stratum     - plast				1
+erred       - dopusnal greshka, gresha	1
+I missed the opportunity
+lay low     - subarqm, povalqm
+busting our asses 
+I'd rather not jump to any wrong conclusions.
+time to pay another visit
+fours		- chetiri kraka		1
+graft		- prisadka			1
+worth 		- zaslujava si		1
+comforting	- uspokoitelen		1
+conceited	- nadut				1
+assume		- predpolagam		1
+conceded	- dopusnal			1
+circulation - zirkulaciq
+stumbled	- prepuna			1
+withheld	- udurja			1
+purposefully - zelenasocheno	1	
+fists		- iumruzi
+settle		- ustanovqvam se
+insulted	- obiden			1
+aggravation - vloshavane		1	
+afford      - pozvolq			1
+revoke		- otmenq			1
+withstand   - izdurja			1
+demand		- tursene
+custody     - popechitelstvo, grija
+riot		- bunt
+ward		- bolnichno otdelenie
+grounded	- nakazan
+deducted	- prispadnalo		1
+appliances	- uredi			1
+run off     - izkarvam		1
+pop         - vzrivqvane
+go spit     - vurvi na mainata si
+lacks       - lipsva		1	
+entities	- obrazyvaniq, ediniza, obekt	1
+particularly - osobeno		1
+determine   - opredelq		1
+consequences - posledstviq
+attempt     - opit
+chunks		- parcheta		1
+denote		- oznachavane	1
+provoke		- provokiram	1
+abandon		- izostavi
+preserve	- rezervat		1
+held		- durjani		1
+endured		- izdurja		1	
+barring		- s izkliuchenie na	1
+attend		- poseshtavam
+omit		- propuskam
+i sort of figured you didn't want that
+abuse		- zloupotreba
+what would you bust him for
+perp		- prestupnik
+apparently	- ochevidno
+suck up     - podlizurstvam
+asylum      - ubejishte
+owe			- dulja
+he ain't worth it - ne si struva
+he ain't worth dying for - ne si struva da umresh za tova
+wiping		- izbursvane
+lining		- oblizovka
+retain		- zapazvam
+throughout  - prez
+designate	- oboznachavane
+prompt		- podskazvam, podtikvam
+substition	- zamestvane
+as opposed	- za razlika
+comprehensive - podroben
+suit		- ponravqm se
+collisions	- sblusazi
+undergo		- podloji
+atonement	- izkuplenie
+fickle		- nepostoqnen
+dawn		- razsumvane
+conspire	- zagovornicha
+beneath		- pod
+blameless	- nevinen
+regret		- razkaivam se
+participate	- uchatnik,uchastvam
+regarding	- otnostno
+sue			- sudq
+awkward		- nepohvaten
+match		- podbiram
+intervening	- vstupili
+snipped		- otrqza
+encase		- pokrivam
+compound	- suedinenie,smes,sustawqm,smesvam
+slyghtly	- malko
+subtle		- kovarni,iztuncheni
+significant	- znachitelno
+laid waste  - opostusheni
+deceive		- mamq, zablujdavam
+impact		- vuzdeistvie
+chain		- veriga,zatvarqm s veriga
+relayed		- prepredavam
+bear		- nosq, turpq
+arbitrarily - proizvolno
+nonetheless - vupreki tova
+achieve     - postigam
+intricately - slojno
+inability   - nesposobnost
+pile up     - kupchina,natrupvam
+lack		- lipsa
+refer		- otnasqt
+retrieve	- poluchavam,vuzvrushtam
+cautious	- predpazliv
+sloppy		- nebrejen
+drastic		- drastichni
+scatch the surface - nadraska povurhnostta
+trivial		- trivialno
+accomplish your goal	- postignesh zelite si
+decade		- desetiletie
+bothering	- pritesnqva
+collaborative	- sutrudnichestvo
+entry		- vpisvane, zapis
+awful		- ujasen
+admire		- vuzhishtavam ti se
+i admire your courige
+admit		- priznavam,suglasqvam
+confes		- priznavamm, izpovqdvam
+intentions	- namereniq
+stand		- stoq,otstoqvam
+fray		- sbivane
+intimidate  - splashvam
+attached    - prikrepen,privurzan
+exclusion   - izkliuchvane
+indulged    - glezq se,otdavam se
+claim the crown - pr4etenzii kum koronata
+whether		- dali
+distract	- razseivam
+vanquish    - pobejdavam
+adorable    - vuzhititelno
+broad   	- shirok
+accrue		- natrupvat
+impersonate - predstavqm
+suitably	- podhodqshto
+perform		- izpulnqva
+ordinary	- obiknoven
+though		- vupreki che	
+piggyback   - furgon
+acquire		- pridobie
+assumption	- predpolojenie
+comply		- suobrazqvam, spazvam
+violating	- narushavane
+at least	- pone
+misplaces	- neopravdan
+enforce		- nalojat
+unforced	- spontanen
+unless		- osven ako
+merely		- prosto
+as opposed to - za razlika ot
+broad		- shirok
+in advance	- predvaritelno
+passes away	- otminava
+overdue		- prosrochen
+presence    - prisustvie
+we speak in the presence of the drowned God,
+and his name we gather today
+to choose a new king as our leader
+used to 	- sviknal
+get used to - svikvai
+raid		- napadenie
+buzz		- brumcha
+swat		- udrqm silno
+fleet		- flota
+conducted	- provedeno
+blast off	- izlitam
+fly out		- izlitam
+banished	- zatochvam, propujdam
+vanished    - izchezvam
+obey		- slusham
+you swore to obey my commands
+they would like to disclosed
+he seemed a good man
+vengeance has consumed you
+dutiful		- otgovoren
+i was sparing you - spestih ti
+according	- spored
+crumble		- trosha
+tearing		- besen, qrosten
+caused		- prichinen
+comply		- suobrazqvam, suglasqvam
+we are able to comply with your request
+outweigh	- naddeleqt, teja poveche 
+outage		- prekusvane
+grief		- skrub
+weep		- placha
+convergence	- shodstvo
+along with	- zaedno s
+decimated	- opustosheno
+swiftly		- burzo
+abandon		- izostavi
+he made me prommise - nakara me da obeshtaq
+you are want for nothing - nqma da se nujdajesh ot nishto
+spread		- razprostranenie
+attorney	- advokat
+get on the line	- naredi se na opashkata
+drag		- vlacha
+apart from the fact - osven fakta
+dough		- testo, pari
+entertainment - zabavlenie
+infringement  - narushenie
+chop		- kulzam
+dope		- droga
+bucks       - dolara
+crook		- moshenik
+lease       - naem, vnoska
+right away	- vednaga
+purchase    - pokupka
+earn		- pechelq
+profit      - pechalba
+orchestrate - organiziram
+competition - konkurenziq
+hoochie     - bez drehi
+suppose     - predpolaga
+upsetting   - raztroivashto
+she won't mind - nqma da ima nishto protiv
+adored		- obojavashe 
+wage		- vodq, zaplata 
+wage		- vodq, zaplata 
+devotion	- predanost 
+uppsetting  - raztroivashto
+proffit		- pechalba
+overcome    - preodoleqt
+suspension  - okachvane
+suspense    - naprejenie, ochakvane
+induction   - vstupvane v dlujnost
+opposer     - protivnik
+borrow      - vzemaqm na zaem
+evaporate   - izpari
+contest     - suztezanie
+for a sit-down with us - za sreshta s nas
+Gavin is very excited about your Pied Piper application
+I'm calling a behalf of Gavin Belson.
+tease       - zakachka
+tenant      - naematel
+apportioned - razpredeleno
+venture     - riskov
+appendage   - izrastuk
+descent     - slizane, spiskane
+decent      - svesten, skromen
+relief      - oblekchenie
+folk        - naroden
+despise     - preziram
+parley      - pregovarqm, obsujdam
+bargain     - zdelka, pazarluk
+spare       - svobodno, poshtadq
+sacrifice   - jertvam
+disrupt     - narushi
+steer       - napravlqvam, nasochvam
+revenue     - prihod
+pivoted     - vurtq, postavq vurhu os
+stamina		- sila
+teardown    - svalqm, subarqm
+failure is contagious - zagubata e zarazna
+furnish		- dekoraziq
+delegate    - upulnomoshtavam, izprashtam
+untenable   - nesustoqtelen
+barely      - edva
+appendage   - izrastuk
+approximately - priblizitelno
+reclaim     - vuzvurnat
+compel      - prinujdavam
+rumor       - sluhove
+harm	    - vreda
+infer       - zagatvam
+conceive    - schitam
+contempt    - prezrenie
+felony      - uglavno prestuplenie
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+http://www.mysql-apache-php.com/
+http://wiki.vpslink.com/Ubuntu_6.06_Web_PHP_Mysql_Mail_Dns#Postfix
+http://www.thesalarycalculator.co.uk/salary.php
+https://hpe.taleo.net/careersection/2/mysubmissions.ftl
+http://www.slashroot.in/linux-booting-process-step-step-tutorial-understanding-linux-boot-sequence
+http://www.thewindowsclub.com/windows-8-not-saving-captured-screenshots
+https://www.youtube.com/watch?v=R0iGK2Ayp6U
+https://hp.taleo.net/careersection/2/jobdetail.ftl
+
+
+
+http://www.thegeekstuff.com/2011/02/linux-boot-process/
+http://www.thegeekstuff.com/2012/01/linux-inodes/
+http://searchstorage.techtarget.com/definition/partition
+https://www.youtube.com/watch?v=HhmYA3fK9PA
+http://docs.oracle.com/javase/8/docs/api/index.html
+http://www.yolinux.com/TUTORIALS/LinuxTutorialMySQL.html
+http://users.drew.edu/bburd/JavaForDummies/
+https://www.youtube.com/watch?v=MZ81z4yUxwU&list=PLF4lVL1sPDSlEy5onQa7pYJ8nAaYzbv_1&index=4
+https://www.youtube.com/watch?v=BCqW5XwtJxY
+https://support.rackspace.com/how-to/installing-mysql-server-on-centos/
+http://stackoverflow.com/questions/30696902/fails-installing-mysql-on-centos-7
+http://www.yolinux.com/TUTORIALS/LinuxTutorialMySQL.html
+https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-centos-7
+http://tecadmin.net/install-tomcat-8-on-centos-rhel-and-ubuntu/#
+http://id-2014.hargaponsel.info/
+https://apigee.com/console
+https://www.youtube.com/watch?v=zn8vLBOEhic
+
+https://drive.google.com/drive/folders/0BzL-2AZH17i8V0E5aGowN0NMQWc
+http://www.aiotestking.com/HP/category/exam-hp0-m33-operations-orchestration-9-x-software/page/7/
+http://www.examcollection.com/hp.html
+
+softaware from hp  -      https://h20575.www2.hpe.com/usbportal/fulfillment/getsoftwareaction.do?lc=EN_US&said=101630962382
+rest api from SAS  - 	  https://irock.jiveon.com/groups/hp-software-gsd-product-management-operations-orchestration/blog/2016/01/14/oo-rest-api-examples-in-different-programming-languages
+Add, Edit, Delete(CRUD) in Java EE WebApp using JSP + Servlet  1 hour -  https://www.youtube.com/watch?v=DN3VAZdhLik
+Dynamic Web Programing linking html pages by Eclipse using servlets, html, jsp, xml, windows 7 35 minutes -  https://www.youtube.com/watch?v=kR-gaI0utQA#t=224.982052
+Java web development with Eclipse WTP - Tutorial  -   http://www.vogella.com/tutorials/EclipseWTP/article.html#wtp_installation
+web key - ec5fc11e6db0ea00
+forecast rest api for oo  -     https://www.wunderground.com/weather/api/d/docs?d=data/forecast&MR=1#examples
+Creating a Web Application with Eclipse IDE 14 minutes     - https://www.youtube.com/watch?v=Av6zh817QEc
+Jsp with Mysql an example for Login and Registration Page 14 minutes 	-	https://www.youtube.com/watch?v=3o0lQkyNuGo
+Creating a Simple Java Server Pages Web Application Connecting to MySQL 2hours and 41 minutes	-	https://www.youtube.com/watch?v=LcTi546vj_A&spfreload=5
+Chef Tutorial on Ubuntu Linux ( slides + screencast ) 27 minutes			-	https://www.youtube.com/watch?v=13CqboU0ijI
+Welcome to HPE Operations Orchestration		-	file:///C:/Program%20Files/Hewlett%20Packard%20Enterprise/HPE%20Operations%20Orchestration/docs/Welcome/Welcome.html
+Some interting information for OO 	-	http://helpfiles.intactcloud.com/OO/10.20/online-help/Content/HelpCenter_Expert.htm
+proxy server		- 	proxy.bbn.hp.com:8080
+documentation		-	https://hpln.hpe.com/product/operations-orchestration/resources/documentation
+how to change root password on CentOs 	-	https://linuxconfig.org/recover-a-forgotten-root-password-on-redhat-7-linux-selinux-system
+check out this link for requirments 	-	http://support.openview.hp.com/selfsolve/document/KM00465747/binary/OO10.00_System_Requirements.pdf
+16.57.70.231 / hpuser / computerPassword
+adress of the machine in AMAS 	-	https://16.57.70.231:8445/oo/rest/v1/flows/b3b58fcc-5274-43c5-bf3b-b49f56178d04     / admin/windows
+c++ exmples undr linux 			-	https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorials/getopt.html
