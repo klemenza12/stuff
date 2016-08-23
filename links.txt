@@ -25,7 +25,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-
 http://tecadmin.net/install-tomcat-8-on-centos-rhel-and-ubuntu/#
 http://id-2014.hargaponsel.info/
 https://apigee.com/console
+http://tecadmin.net/install-tomcat-8-on-centos-rhel-and-ubuntu/#
+http://id-2014.hargaponsel.info/
+https://apigee.com/console
 https://www.youtube.com/watch?v=zn8vLBOEhic
+https://www.youtube.com/watch?v=Qk2Vz9kSVYQ
+https://vceplus.com/vce-to-pdf/
+https://vceplus.com/how-to-open-vce-files-on-your-mobile/
 
 https://drive.google.com/drive/folders/0BzL-2AZH17i8V0E5aGowN0NMQWc
 http://www.aiotestking.com/HP/category/exam-hp0-m33-operations-orchestration-9-x-software/page/7/
