@@ -375,6 +375,7 @@ infer       - zagatvam
 conceive    - schitam
 contempt    - prezrenie
 felony      - uglavno prestuplenie
+wounded 	- ranen
 
  
 
