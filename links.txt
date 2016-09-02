@@ -7,7 +7,7 @@ http://www.thewindowsclub.com/windows-8-not-saving-captured-screenshots
 https://www.youtube.com/watch?v=R0iGK2Ayp6U
 https://hp.taleo.net/careersection/2/jobdetail.ftl
 
-
+https://www.youtube.com/watch?v=sNEcpw8LPpo#t=710.018472
 
 http://www.thegeekstuff.com/2011/02/linux-boot-process/
 http://www.thegeekstuff.com/2012/01/linux-inodes/
@@ -51,6 +51,8 @@ Chef Tutorial on Ubuntu Linux ( slides + screencast ) 27 minutes			-	https://www
 Welcome to HPE Operations Orchestration		-	file:///C:/Program%20Files/Hewlett%20Packard%20Enterprise/HPE%20Operations%20Orchestration/docs/Welcome/Welcome.html
 Some interting information for OO 	-	http://helpfiles.intactcloud.com/OO/10.20/online-help/Content/HelpCenter_Expert.htm
 proxy server		- 	proxy.bbn.hp.com:8080
+home page  			- 	home.hpe.com
+vacation leave 		- 	http://vacation.bgr.hp.com/  60091120 / oldComputerPassword
 documentation		-	https://hpln.hpe.com/product/operations-orchestration/resources/documentation
 how to change root password on CentOs 	-	https://linuxconfig.org/recover-a-forgotten-root-password-on-redhat-7-linux-selinux-system
 check out this link for requirments 	-	http://support.openview.hp.com/selfsolve/document/KM00465747/binary/OO10.00_System_Requirements.pdf
@@ -58,3 +60,9 @@ check out this link for requirments 	-	http://support.openview.hp.com/selfsolve/
 adress of the machine in AMAS 	-	https://16.57.70.231:8445/oo/rest/v1/flows/b3b58fcc-5274-43c5-bf3b-b49f56178d04     / admin/standardPass
 c++ exmples undr linux 			-	https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorials/getopt.html
 cisco linux and many more 		- 	https://www.youtube.com/user/danscourses/playlists
+maven tutorial 				    -   https://www.youtube.com/watch?v=al7bRZzz4oU
+maven tutorial2					-   https://www.youtube.com/watch?v=Rs1Y5-vqCx0
+CATIS							-   https://rmapps.itcs.hpecorp.net/Catis2Web/MainWide.aspx 
+Operation Orchestration tutor.	-   https://content.houston.hp.com/production_common2/sabacr262473390031801176/OO10.x_HowToUseLevel320_SelfPaced_Package/OO10.x_HowToUseLevel320_SelfPaced_Package/index.html 
+software support OO      		- 	softwaresupport.hpe.com
+

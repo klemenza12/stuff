@@ -1,0 +1,4 @@
+https://people.planetpostgresql.org/devrim/index.php?/archives/80-Installing-and-configuring-PostgreSQL-9.3-and-9.4-on-RHEL-7.html
+sudo -u postgres psql
+createdb -U postgres name_of_new_database
+mobaxterm

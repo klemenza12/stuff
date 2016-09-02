@@ -214,6 +214,7 @@ my reason for saying that is
 features	 - harakteristika
 prerequisite - predpostavka
 enterpreneur - predpriemach
+leave		 - otpuska
 
 
 
