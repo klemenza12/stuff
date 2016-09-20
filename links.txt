@@ -65,4 +65,7 @@ maven tutorial2					-   https://www.youtube.com/watch?v=Rs1Y5-vqCx0
 CATIS							-   https://rmapps.itcs.hpecorp.net/Catis2Web/MainWide.aspx 
 Operation Orchestration tutor.	-   https://content.houston.hp.com/production_common2/sabacr262473390031801176/OO10.x_HowToUseLevel320_SelfPaced_Package/OO10.x_HowToUseLevel320_SelfPaced_Package/index.html 
 software support OO      		- 	softwaresupport.hpe.com
+expense report					-   https://eem.houston.hpecorp.net/eem/login.do?task=1 
+Bulgaria Zdrave					-   Всеки вторник и петък: 10:00 - 11:30 
+
 

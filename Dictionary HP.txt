@@ -215,6 +215,7 @@ features	 - harakteristika
 prerequisite - predpostavka
 enterpreneur - predpriemach
 leave		 - otpuska
+approximately - priblizitelno
 
 
 
