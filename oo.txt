@@ -1,0 +1,41 @@
+The Topology tab is only visible if you have been assigned a role with the Manage Topology or View Topology permission. 
+	You will only be able to edit the topology if you have a role with the Manage Topology permission.
+list system
+configuration items
+logs settings
+In the Dependencies pane, click the Import button or from the File menu, select Import Content Pack.
+memory size - Changing any of the parameters below requires a restart of the configured node
+system tunning - JVM heap size
+15 content packs - Fine-Grained HP Content
+how many versions you are able to see SVN - 
+which are the foyr themese like dependencies, author, projects......
+how to serach by name uuid reference ...
+default roi value	-	0
+what you are able to see start time end time user name or both .........
+how to delete a flow
+out of the box stuff
+cluster	- two Central nodes connected to the same database schema.
+Scalability - HPE OO offers horizontal scaling for increasing execution throughput, and also provides live scalability
+RAS 4 and RAS 5 belong to the same worker group, they share the load of executing flows\steps that are designated for that worker group and provide high availability.
+OO uses the Java Keytool utility to manage cryptographic keys and trusted certificates. This utility is included in the OO installation folder, in <installation dir>/java/bin/keytool.
+client.truststore: Contains the list of trusted certificates
+key.store: Contains the OO private certificate (including the private key) 
+what is the purpose of studio object.......
+ldap working with internal users is it possible ?
+The main elements of Studio are: Projects Dependencies (Content Packs, Library) Authoring Pane
+267 str
+what are the benefits - 
+system configurations by running the ‘lsc’ command
+You can search for configuration items by UUID, name, and description fields.
+Delete a configuration item folder  1. In the Projects pane, expand the Configuration folder. 2. Right-click on a configuration item folder, and then select Delete.
+If you do not have ROI values assigned in your flows, the total ROI value will be 0.
+Content Management workspace – used for promotion tasks, such as deploying new content, setting permissions on flows, setting up configuration items
+he person doing the promotion must be assigned a role with View Content Packs and Manage Content Packs permissions.
+In the Flow Launcher tab in the Run Management workspace, you can select a flow, view its details, prepare it for running, and start the run.
+Run a flow from the Flow Library 1. Click the Content Management Workspace button to display the Content Management workspace. 2. Click the Flow Library tab. 3. Browse for a flow in the flow library.
+When the run reaches an interactive point (such as Inputs Required, Handoff, Display  Message, and so on), its status is changed to Paused - Action Required.
+It is not possible to drag and drop a flow or operation into the Configuration folder, and vice versa.
+Runbook automation – automation of common and repeatable IT processes across all infrastructure tiers, IT groups, and systems
+
+
+
