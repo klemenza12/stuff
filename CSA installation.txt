@@ -1,0 +1,8 @@
+
+C:\Program Files\Hewlett-Packard\CSA\Tools\ProcessDefinitionTool
+C:\Program Files\HPE\HPE Operations Orchestration\java\bin keytool
+https://pssrv01.deu.hp.com:8444/csa/dashboard/index.jsp#/dashboard/main/designs/sequenceddesigns/sequenced_resources
+https://pssrv01.deu.hp.com:8444/csa/designs/index.jsp#/design/90b9c6b249e7ab01014a0fc62d8830fb/designer
+oo https://pssrv01.deu.hp.com:8443/oo/#/reportsWorkspace/dashboard
+CSA https://pssrv01.deu.hp.com:8444/csa/login
+MarketPlace https://pssrv01.deu.hp.com:8089/org/AMAS_CONSUMER
