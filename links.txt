@@ -68,7 +68,14 @@ software support OO      		- 	softwaresupport.hpe.com
 expense report					-   https://eem.houston.hpecorp.net/eem/login.do?task=1 
 Bulgaria Zdrave					-   Всеки вторник и петък: 10:00 - 11:30 
 target every year				-   https://hpenterprise.sharepoint.com/teams/catalog 
-doktor desislava popova pondelin 2h
 
 
+vSpfere Windows server			-   pssrv01.deu.hp.com
+\\16.57.70.194\Shared 16.57.70.194 Administator cde34rfv. 
+docs							-	https://hpln.hpe.com/product/cloud-service-automation/resources/documentation
+network automation				-   https://pssrv06.deu.hp.com/   username: amasadmin  password:  HP1nv3nt   
+direcotory works				-	https://directoryworks.hpecorp.net/protected/groups/view/normal/?dn=cn=LOC-BBN-ISG-INTERNAL,ou=Groups,o=hp.com
+iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+16.57.70.210 
+AMAS							-   https://pssrv01.deu.hp.com:8089/org/AMAS_CONSUMER
 
