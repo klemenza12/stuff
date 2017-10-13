@@ -1,0 +1,3 @@
+psvm15 confirmed to be deleted Sarah Belkhiria (requested bu Fouet);Currently power off, pending deletion in a week
+psvm09 confirmed to be deleted  - this person left hpe
+ipconfig /all|find "IPv4"

@@ -6,3 +6,29 @@ https://pssrv01.deu.hp.com:8444/csa/designs/index.jsp#/design/90b9c6b249e7ab0101
 oo https://pssrv01.deu.hp.com:8443/oo/#/reportsWorkspace/dashboard
 CSA https://pssrv01.deu.hp.com:8444/csa/login
 MarketPlace https://pssrv01.deu.hp.com:8089/org/AMAS_CONSUMER
+
+proxy server - http://autocache.hpecorp.net/
+https://chernevh1.emea.hpqcorp.net:8444/csa/dashboard/index.jsp#/dashboard/main
+https://irock.jiveon.com/docs/DOC-135180
+ftp://h2.usa.hp.com/installer/
+https://localhost:8444/csa/dashboard/index.jsp#/dashboard/main
+
+For Proxy C:\Windows\System32\drivers\etc\hosts	and adding this line 16.52.21.6  chernevh1.emea.hpqcorp.net
+from cmd nslooukup ipadress or chernevh1.emea.hpqcorp.net if it is responds we can use it in csa installation
+if we have some ports issue, if we want to see the ports we can - log on cmd with administator privileges and cd c:/ netstat -na > ports.txt
+1. download postgres,  install it, create three databases csadb, idmdb,oodb
+2. download CSA47_setup_Win.zip try to install it
+		
+	1  CSA and marketplace
+	2. Open JRE
+	3. 8444
+	4. localhost/5432/(csadb, idmdb,oodb)/postgres/windows
+	5. user admin/windows
+3 Open https://chernevh1.emea.hpqcorp.net:8444/csa/configuration/index.jsp#/config/content_store
+	browse CSA\Tools\CSLContentInstaller\CC-vCenter-Compute.zip and install it
+4. Open user case from https://irock.jiveon.com/docs/DOC-135180
+5. When you reach the point with the sending SAML/metadata, the Tech Ambassador guys will reply to you with ok.
+   Log on the csa and go to the Organizations/EON/General Information copy the organization url https://chernevh1.emea.hpqcorp.net:8089/org/eon adfs/hristo admin@123
+
+6.net start csa 
+7.net stop csa   

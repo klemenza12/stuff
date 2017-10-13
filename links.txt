@@ -32,13 +32,25 @@ https://www.youtube.com/watch?v=zn8vLBOEhic
 https://www.youtube.com/watch?v=Qk2Vz9kSVYQ
 https://vceplus.com/vce-to-pdf/
 https://vceplus.com/how-to-open-vce-files-on-your-mobile/
+VMWARE Server appliance tutorial -	https://www.youtube.com/watch?v=gdwZb17H0t8#t=92.39205
 
 https://drive.google.com/drive/folders/0BzL-2AZH17i8V0E5aGowN0NMQWc
 http://www.aiotestking.com/HP/category/exam-hp0-m33-operations-orchestration-9-x-software/page/7/
 http://www.examcollection.com/hp.html
 
-softaware from hp  -      https://h20575.www2.hpe.com/usbportal/fulfillment/getsoftwareaction.do?lc=EN_US&said=101630962382
+softaware from hpe        https://h20575.www2.hpe.com/usbportal/fulfillment/getsoftwareaction.do?lc=EN_US&said=101630962382
+validate portal   	      https://softwaresupport.hp.com/group/softwaresupport/validate-employee
+software support OO       https://softwaresupport.hpe.com/
+market place portal  	  https://marketplace.saas.hpe.com/ 
+download sw				  https://h22244.www2.hpe.com/evalportal/index.do?lang=en&cc=us&hpappid=115791_PDAPI_PRMO_EVAL_PRO2_HPE
+documents HPE SW		  https://docs.software.hpe.com/SM/9.52/Hybrid/Content/Home.htm
+directoryWorks	https://directoryworks.hpecorp.net/protected/people/view/groups/owner/?dn=uid%3Dhristo.chernev%40hpe.com%2Cou%3DPeople%2Co%3Dhp.com
+omc						  https://infradoc.int.svcs.hpe.com/sslgwy:stp
+
+something interesting for csa training -	http://vsnapshots.blogspot.de/2015/05/hp-cloud-service-automation-part-2.html
 rest api from SAS  - 	  https://irock.jiveon.com/groups/hp-software-gsd-product-management-operations-orchestration/blog/2016/01/14/oo-rest-api-examples-in-different-programming-languages
+sas https://github.com/sasvirco/flowinvoke
+
 Add, Edit, Delete(CRUD) in Java EE WebApp using JSP + Servlet  1 hour -  https://www.youtube.com/watch?v=DN3VAZdhLik
 Dynamic Web Programing linking html pages by Eclipse using servlets, html, jsp, xml, windows 7 35 minutes -  https://www.youtube.com/watch?v=kR-gaI0utQA#t=224.982052
 Java web development with Eclipse WTP - Tutorial  -   http://www.vogella.com/tutorials/EclipseWTP/article.html#wtp_installation
@@ -52,9 +64,14 @@ Welcome to HPE Operations Orchestration		-	file:///C:/Program%20Files/Hewlett%20
 Some interting information for OO 	-	http://helpfiles.intactcloud.com/OO/10.20/online-help/Content/HelpCenter_Expert.htm
 proxy server		- 	proxy.bbn.hp.com:8080
 home page  			- 	home.hpe.com
+						
 vacation leave 		- 	http://vacation.bgr.hp.com/  60091120 / oldComputerPassword
+					-	https://myschedule.bgr.hp.com/vacation/ 
+					-	 http://myschedule.swinfra.net/ the very new
 documentation		-	https://hpln.hpe.com/product/operations-orchestration/resources/documentation
-how to change root password on CentOs 	-	https://linuxconfig.org/recover-a-forgotten-root-password-on-redhat-7-linux-selinux-system
+how to change root password on CentOs 	-	
+CoreOS https://coreos.com/os/docs/latest/customizing-docker.html
+AWS pfd answers	-	https://drive.google.com/drive/folders/0B-ob6L_QjGLpNHAybDNCczFiLTg 
 check out this link for requirments 	-	http://support.openview.hp.com/selfsolve/document/KM00465747/binary/OO10.00_System_Requirements.pdf
 16.57.70.231 / hpuser / computerPassword
 adress of the machine in AMAS 	-	https://16.57.70.231:8445/oo/rest/v1/flows/b3b58fcc-5274-43c5-bf3b-b49f56178d04     / admin/standardPass
@@ -62,20 +79,36 @@ c++ exmples undr linux 			-	https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorial
 cisco linux and many more 		- 	https://www.youtube.com/user/danscourses/playlists
 maven tutorial 				    -   https://www.youtube.com/watch?v=al7bRZzz4oU
 maven tutorial2					-   https://www.youtube.com/watch?v=Rs1Y5-vqCx0
-CATIS							-   https://rmapps.itcs.hpecorp.net/Catis2Web/MainWide.aspx 
+CATIS							-   https://rmapps.itcs.softwaregrp.net/Catis2Web/MainWide.aspx
+ 
 Operation Orchestration tutor.	-   https://content.houston.hp.com/production_common2/sabacr262473390031801176/OO10.x_HowToUseLevel320_SelfPaced_Package/OO10.x_HowToUseLevel320_SelfPaced_Package/index.html 
-software support OO      		- 	softwaresupport.hpe.com
-expense report					-   https://eem.houston.hpecorp.net/eem/login.do?task=1 
+expense report	old				-   https://eem.houston.hpecorp.net/eem/login.do?task=1 
+expense report  new					https://eem.houston.hpecorp.net/eemsw/login.do?task=1
+			
 Bulgaria Zdrave					-   Всеки вторник и петък: 10:00 - 11:30 
 target every year				-   https://hpenterprise.sharepoint.com/teams/catalog 
 
+directoryworks					- 	https://directoryworks.hpecorp.net/ 
+request a skype phone number	-	https://myitsupport.ext.hpe.com/myITsupport/ITSArticle?ArticleNumber=000004054  
 
+smartbuy - home.hpe.com and click on "I Want To" and search in the search box for smart buy
 vSpfere Windows server			-   pssrv01.deu.hp.com
 \\16.57.70.194\Shared 16.57.70.194 Administator cde34rfv. 
 docs							-	https://hpln.hpe.com/product/cloud-service-automation/resources/documentation
-network automation				-   https://pssrv06.deu.hp.com/   username: amasadmin  password:  HP1nv3nt   
+network automation				-   https://pssrv06.deu.hp.com/   username: amasadmin  password:  HP1nv3nt   root/korba99.1
 direcotory works				-	https://directoryworks.hpecorp.net/protected/groups/view/normal/?dn=cn=LOC-BBN-ISG-INTERNAL,ou=Groups,o=hp.com
+websphere web client			-	https://pssrv05.bbntc.hpeswlab.net:9443/vsphere-client
 iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
 16.57.70.210 
 AMAS							-   https://pssrv01.deu.hp.com:8089/org/AMAS_CONSUMER
+installing nodejs behind a proxy  - npm config set proxy http://proxy.company.com:8080
 
+https://www.youtube.com/watch?v=7QXnk8emzOU - dockers
+
+https://www.youtube.com/watch?v=nwKZ6H3Wq8M - xenapp, lvm
+https://www.youtube.com/watch?v=vls88DuOO_o - brtualna prezentaziq za xen
+
+https://www.youtube.com/watch?v=cb7jCMNJLkQ	cisco
+https://www.youtube.com/watch?v=E8gtrVOjJrM cisco
+http://www.samsung.com/se/support/erms/
+https://github.com/rilindo/LPIC-3-Certification-Prep

@@ -1,0 +1,1075 @@
+login as: root
+root@16.57.70.142's password:
+Last login: Tue Nov 29 09:41:17 2016 from 16.52.21.6
+Kickstart-installed RedHat 7.1Server - LinuxCOE 4.3 Wed Sep  2 01:22:02 CEST 201                                                                                                                     5
+
+This is a IaaS virtual machine provided through AMaS.
+
+Please check out the Owners Guide on our Wiki:
+https://homer.bbntc.hpeswlab.net/psutils/wiki/AMAS-UserGuide/LinuxVMOwnerGuide
+
+[root@psvm63 ~]# history
+    1  shutdown -r now
+    2  ps -ef | grep vm
+    3  vi /etc/sysconfig/grub
+    4  exit
+    5  vi /etc/yum.repos.d/vmware-tools.repo
+    6  localectl list
+    7  localectl list-keymaps
+    8  localectl set-keymap
+    9  ls
+   10  rm -f VMWARE-PACKAGING-GPG-*
+   11  cd /tmp
+   12  ls
+   13  vi LinuxCOE.final
+   14  yum
+   15  man yum
+   16  yum grouplist
+   17  yum groupinstall "Console Internet Tools"
+   18  yum groupinstall "System Administration Tools"
+   19  exit
+   20  df
+   21  cd /etc/yum.repos.d/
+   22  ll
+   23  more vmware-tools.repo
+   24  more *
+   25  ifconfig
+   26  cat /etc/resolv.conf
+   27  cd
+   28  cd .ssh
+   29  cat authorized_keys
+   30  exit
+   31  vgdisplay
+   32  shutdown -h now
+   33  iptables -list
+   34  iptables -l
+   35  iptables -L
+   36  setup
+   37  yum search setup
+   38  yum install setup
+   39  yum install setuptool
+   40  setup
+   41  yum search firewall
+   42  yum search system-config
+   43  yum install system-config-keyboard system-config-firewall-base system-con                                                                                                                     fig-language system-config-users
+   44  setup
+   45  rpm -ql system-config-firewall-base
+   46  /usr/sbin/lokkit
+   47  firewall-cmd
+   48  firewall-cmd -h
+   49  yum clean all
+   50  cd /etc/yum.repos.d/
+   51  ll
+   52  cat vmware-tools.repo
+   53  rpm
+   54  more /etc/redhat-release
+   55  ll
+   56  vi *
+   57  :q
+   58  yum clean all
+   59  yum update
+   60  vi vmware-tools.repo
+   61  yum update
+   62  yum update --skip-broken
+   63  shutdown -ry now
+   64  shutdown -r now
+   65  yum update
+   66  cd /etc/yum.repos.d/
+   67  ll
+   68  grep 7.1 *
+   69  more /etc/redhat-release
+   70  vi *
+   71  yum update --skip-broken
+   72  vi*
+   73  vi *
+   74  yum update --skip-broken
+   75  yum clean all
+   76  yum list
+   77  yum list |grep openvm
+   78  yum list |grep open
+   79  shutdown -h now
+   80  iptables -A INPUT -i eth0 -p tcp -s pssrv08.deu.hp.com --dport 1002 -j AC                                                                                                                     CEPT
+   81  service iptables save
+   82  service iptables stop
+   83  service iptables start
+   84  shutdown -hy now
+   85  shutdown -h now
+   86  firewall-cmd --zone=public --add-port=1002/tcp
+   87  shutdown -h now
+   88  firewall-cmd --zone=public --add-port=1002/tcp
+   89  firewall-cmd --zone=public --add-port=3001/tcp
+   90  systemctl restart firewalld.service
+   91  firewall-cmd --zone=public --list-all
+   92  firewall-cmd --zone=public --add-port=3001/tcp
+   93  systemctl restart firewalld.service
+   94  firewall-cmd --zone=public --list-all
+   95  firewall-cmd --permanent --zone=public --add-port=3001/tcp
+   96  firewall-cmd --permanent --zone=public --add-port=1002/tcp
+   97  systemctl restart firewalld.service
+   98  firewall-cmd --zone=public --list-all
+   99  shutdown -h now
+  100  fv.
+  101  cat ~root/.ssh/authorized_keys
+  102  ll
+  103  ll -a
+  104  ls -la .ssh
+  105  yum update
+  106  yum update --skip-broken
+  107  yum update
+  108  rpm -Va --nofiles --nodigest
+  109  ls
+  110  vi /etc/yum.repos.d/vmware-tools.repo
+  111  yum remove open-vm-tools
+  112  yum install open-vm-tools
+  113  rm -f /etc/yum.repos.d/vmware-tools.repo
+  114  yum update
+  115  shutdown -r now
+  116  cd /etc/yum.repos.d/
+  117  ll
+  118  rpm --list
+  119  rpm
+  120  man rpm
+  121  rpm -q -a |grep vm |more
+  122  exit
+  123  cd /etc/yum.repos.d
+  124  vi /etc/profile.d/proxy.sh
+  125  man sed
+  126  sed -i.bak '1,$ s/linuxcoe.corp.hp.com/linuxcoe9.houston.hpecorp.net/g' /                                                                                                                     etc/yum.repos.d/*.repo
+  127  ls
+  128  vi LinuxCOE-HPCOE.repo
+  129  mv LinuxCOE-HPCOE.repo.bak LinuxCOE-HPCOE.repo
+  130  ls
+  131  mv  LinuxCOE-LinuxCOE.repo.bak  LinuxCOE-LinuxCOE.repo
+  132  mv redhat.repo.bak redhat.repo
+  133  ls
+  134  mv  LinuxCOE-LinuxCOE.repo.bak  LinuxCOE-LinuxCOE.repo
+  135  ls
+  136  mv LinuxCOE-RedHat-7.1Server-x86_64.repo.bak LinuxCOE-RedHat-7.1Server-x8                                                                                                                     6_64.repo
+  137  sed -i.bak '1,$ s/linuxcoe.corp.hp.com/linuxcoe9.houston.hpecorp.net/g' /                                                                                                                     etc/yum.repos.d/redhat.repo
+  138  vi redhat.repo
+  139  ls
+  140  mv redhat.repo.bak redhat.repo
+  141  sed -i.bak '1,$ s/linuxcoe.corp.hp.com/linuxcoe9.houston.hpecorp.net/g' /                                                                                                                     etc/yum.repos.d/LinuxCOE-HPCOE.repo
+  142  vi LinuxCOE-HPCOE.repo
+  143  sed -i.bak '1,$ s/[a-z]*\.[a-z]*\.hp\.com/linuxcoe9.houston.hpecorp.net/g                                                                                                                     ' /etc/yum.repos.d/LinuxCOE-HPCOE.repo
+  144  vi LinuxCOE-HPCOE.repo
+  145  sed -i.bak '1,$ s/[a-z]*\.[a-z]*\.hp\.com/linuxcoe9.houston.hpecorp.net/g                                                                                                                     ' /etc/yum.repos.d/LinuxCOE-*.repo
+  146  cat *.repo
+  147  ls
+  148  rm -f *.bak
+  149  ls
+  150  yum update
+  151  ls
+  152  exit
+  153  more /etc/yum.repos.d/
+  154  cd /etc/yum.repos.d/
+  155  ll
+  156  yum clean all
+  157  yum update
+  158  env
+  159  shutdown -r now
+  160  shutdown -h now
+  161  cd /etc/yum.repos.d/
+  162  ls
+  163  vi LinuxCOE-HPCOE.repo
+  164  cd /etc/yum.repos.d/
+  165  more *
+  166  yum update
+  167  shutdown -r now
+  168  yum update
+  169  cd /etc/yum.repos.d/
+  170  ll
+  171  more BTDT-LinuxCOE
+  172  more redhat.repo
+  173  vi LinuxCOE-HPCOE.repo
+  174  yum update
+  175  vi LinuxCOE-HPCOE.repo
+  176  yum update
+  177  ll
+  178  vi LinuxCOE-LinuxCOE.repo
+  179  ll
+  180  more LinuxCOE-RedHat-7.1Server-x86_64.repo
+  181  cp -p LinuxCOE-RedHat-7.1Server-x86_64.repo LinuxCOE-RedHat-7.2Server-x86                                                                                                                     _64.repo
+  182  vi LinuxCOE-RedHat-7.2Server-x86_64.repo
+  183  yum update
+  184  shutdown -h now
+  185  vi /etc/motd
+  186  cd /etc
+  187  vi resolv.conf
+  188  cd /etc/sysconfig
+  189  vi /etc/host*
+  190  cd network-scripts/
+  191  ll
+  192  grep -i 16\. *
+  193  grep -i deu *
+  194  yum update
+  195  reboot
+  196  yum update
+  197  shutdown -h now
+  198  exec /bin/sh
+  199  PATH=/bin:/usr/bin:/usr/local/bin${PATH:+:$PATH}
+  200  export PATH
+  201  \echo BEGIN${LANG}END
+  202  \echo BEGIN${LC_ALL}END
+  203  LANG=C; export LANG; LC_ALL=C; export LC_ALL
+  204  \stty intr "^C" erase "^H" kill "^U"
+  205  \echo BEGIN
+  206  \echo END
+  207  \uname -a
+  208  \cat /proc/version
+  209  \echo "Release: `\rpm -qf /etc/redhat-release --queryformat '%{NAME}-%{VE                                                                                                                     RSION}
+  210  '` EOL"
+  211  \echo "System:`\uname -s` EOL"
+  212  \echo "Arch:`\uname -m` EOL"
+  213  \cat /proc/version
+  214  \echo "Release: `\rpm -qf /etc/redhat-release --queryformat '%{NAME}-%{VE                                                                                                                     RSION}
+  215  '` EOL"
+  216  \echo "System:`\uname -s` EOL"
+  217  \echo "Arch:`\uname -m` EOL"
+  218  \cat /proc/version
+  219  \uname -a
+  220  \cat /proc/version
+  221  [ -d /tmp ]; \echo "RC:" $? "EOL"
+  222  \id
+  223  /bin/mount | grep " `\df -Pk /tmp | tail -1 | awk '{ print $6 }'` " | awk                                                                                                                      '{ print $6 }'; \echo \"RC: $? EOL\"
+  224  \id
+  225  echo "BEGIN";FILE=/tmp/adt_tmp_check.$RANDOM; touch $FILE 2>/dev/null &&                                                                                                                      { rm -f $FILE 2>/dev/null; echo "rw"; } || echo "ro"; echo "END"; \echo \"RC: $?                                                                                                                      EOL\"
+  226  \mkdir /tmp/opsware-agent-installer.lck 2> /dev/null; \echo "RC:" $? "EOL                                                                                                                     "
+  227  \uname -a
+  228  /sbin/ip addr
+  229  \cat /etc/resolv.conf
+  230  \cat /etc/hosts
+  231  \/sbin/ip route
+  232  [ -f /tmp/portping.Linux64 ]; \echo "RC:" $? "EOL"
+  233  [ -d /tmp ]; \echo "RC:" $? "EOL"
+  234  \df -Pk /tmp
+  235  [ -f /tmp/portping.Linux64 ]; \echo "RC:" $? "EOL"
+  236  \echo LS: `\ls -n /tmp/portping.Linux64` EOL
+  237  [ -f /tmp/portping.Linux64 ]; \echo "RC:" $? "EOL"
+  238  \echo LS: `\ls -n /tmp/portping.Linux64` EOL
+  239  [ -f /tmp/curl.Linux64 ]; \echo "RC:" $? "EOL"
+  240  [ -d /tmp ]; \echo "RC:" $? "EOL"
+  241  \df -Pk /tmp
+  242  [ -f /tmp/curl.Linux64 ]; \echo "RC:" $? "EOL"
+  243  \echo LS: `\ls -n /tmp/curl.Linux64` EOL
+  244  [ -f /tmp/curl.Linux64 ]; \echo "RC:" $? "EOL"
+  245  \echo LS: `\ls -n /tmp/curl.Linux64` EOL
+  246  ss -t -a src *:1002| grep \"LISTEN\"
+  247  /tmp/portping.Linux64 AgentPort 1002
+  248  /tmp/portping.Linux64 16.57.70.57 3001
+  249  [ -d /opt ]; \echo "RC:" $? "EOL"
+  250  [ -d /opt/opsware ]; \echo "RC:" $? "EOL"
+  251  \df -Pk /opt
+  252  \id
+  253  [ -f /tmp/opsware-agent-LINUX-7SERVER-X86_64 ]; \echo "RC:" $? "EOL"
+  254  [ -d /tmp ]; \echo "RC:" $? "EOL"
+  255  \df -Pk /tmp
+  256  cd /tmp
+  257  \id
+  258  /tmp/curl.Linux64 --silent --show-error --verbose -o /tmp/opsware-agent-L                                                                                                                     INUX-7SERVER-X86_64 -g -p -x 16.57.70.57:3001 http://127.0.0.1:8081/opsware-agen                                                                                                                     t-LINUX-7SERVER-X86_64; \echo \"RC: $? EOL\"
+  259  [ -f /tmp/opsware-agent-LINUX-7SERVER-X86_64 ]; \echo "RC:" $? "EOL"
+  260  \echo LS: `\ls -n /tmp/opsware-agent-LINUX-7SERVER-X86_64` EOL
+  261  \id
+  262  chmod 755 /tmp/opsware-agent-LINUX-7SERVER-X86_64; \echo \"RC: $? EOL\"
+  263  LANG=C; export LANG
+  264  LC_ALL=C; export LC_ALL
+  265  \id
+  266  /tmp/opsware-agent-LINUX-7SERVER-X86_64 --loglevel error --opsw_gw_addr 1                                                                                                                     6.57.70.57:3001 --opsw_src_addr 16.57.70.142; \echo \"RC: $? EOL\"
+  267  \echo BEGIN${LANG}END
+  268  \echo BEGIN${LC_ALL}END
+  269  LANG=C; export LANG; LC_ALL=C; export LC_ALL
+  270  \id
+  271  /bin/cat /etc/opt/opsware/agent/mid; \echo \"RC: $? EOL\"
+  272  \rm -f /tmp/portping.Linux64
+  273  \rm -f /tmp/curl.Linux64
+  274  \rm -f /tmp/opsware-agent-LINUX-7SERVER-X86_64
+  275  \rm -rf /tmp/opsware-agent-installer.lck
+  276  exit
+  277  less /etc/passwd
+  278  passwd
+  279  exit
+  280  ls
+  281  pwd
+  282  cd ..
+  283  ls
+  284  cd home/
+  285  ls
+  286  cd hpuser/
+  287  ls
+  288  cd OO
+  289  ls
+  290  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  291  ls
+  292  ls -la
+  293  chown -R ./*
+  294  chown -R root ./*
+  295  ls -la
+  296  chmod 755 *
+  297  ls -alt
+  298  ./installer-linux64.bin
+  299  chmod 777 ./*
+  300  pwd
+  301  ls
+  302  ./installer-linux64.bin
+  303  yum search java
+  304  ls -l
+  305  cd sdk/
+  306  ls
+  307  gunzip sdk-java-10.60.zip
+  308  unzip sdk-java-10.60.zip
+  309  tar xvfj sdk-java-10.60.zip
+  310  tar xv sdk-java-10.60.zip
+  311  ls
+  312  tar -xv sdk-java-10.60.zip
+  313  unzip sdk-java-10.60.zip  -d ./
+  314  yum install unzip
+  315  unzip sdk-java-10.60.zip  -d ./
+  316  ls
+  317  cd ...
+  318  cd ..
+  319  ls
+  320  bash installer-linux64.bin
+  321  cd /opt/
+  322  ls
+  323  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3                                                                                                                     A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://down                                                                                                                     load.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar.gz"
+  324  wget http://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u101-b13/jre-8u101-linux-                                                                                                                     x64.rpm?Gr
+  325  ls
+  326  cd /home/hpuser/OO/
+  327  ls
+  328  rpm -i jre-8u101-linux-x64.rpm
+  329  ls
+  330  bash installer-linux64.bin
+  331  bash ./installer-linux64.bin
+  332  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  333  ls
+  334  bash installer-linux64.bin
+  335  cd
+  336  cd -
+  337  cd /
+  338  ls
+  339  find -name java
+  340  cd usr/
+  341  ls
+  342  chmod 777 *
+  343  ls
+  344  cd /home/hpuser/OO/
+  345  cd Hp
+  346  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  347  ls
+  348  bash installer-linux64.bin
+  349  cd /usr/
+  350  cd ..
+  351  cd bin/
+  352  ls
+  353  cd java
+  354  chomd 777 java
+  355  chmod 777 java
+  356  find / -name java
+  357  cd /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  358  bash installer-linux64.bin
+  359  man rpm
+  360  yum list java
+  361  cd ..
+  362  ;s
+  363  ls
+  364  rpm -ivh jre-8u101-linux-x64.rpm
+  365  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  366  bash installer-linux64.bin
+  367  yum list java*
+  368  yum install jaba*
+  369  yum install java*
+  370  ls
+  371  cd ..
+  372  ls
+  373  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  374  bash installer-linux64.bin
+  375  export JAVA_HOME=/usr/java/jre1.8.0_101/
+  376  echo $JAVA_HOME
+  377  cat installer-linux64.bin
+  378  bash installer-linux64.bin
+  379   line 15: java/bin/java: No such file or directory
+  380  yum update
+  381  yum upgrade
+  382  yum list libc6*
+  383  bash installer-linux64.bin
+  384  find / -name java
+  385  echo $JAVA_HOME
+  386  export PATH=$PATH:/usr/java/jre1.8.0_101/bin
+  387  echo $PATH
+  388  ls /usr/java/jre1.8.0_101/bin/
+  389  bash installer-linux64.bin
+  390  cd /usr/java/jre1.8.0_101/
+  391  ls
+  392  chmod 777 ./*
+  393  ls
+  394  cd /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  395  bash installer-linux64.bin
+  396  ls
+  397  cd /
+  398  ls -alt
+  399  cd bin/
+  400  ls -alt
+  401  ls -alt | grep java
+  402  java
+  403  java -alt
+  404  ls -alt | grep java
+  405  cd /etc/alternatives/java/
+  406  reboot now
+  407  man tar
+  408  ls /bin/ | grep java
+  409  ls -alt  /bin/ | grep java
+  410  yum update
+  411  yum upgrade
+  412  yum list java*
+  413  cd /home/hpuser/OO/
+  414  ls -alt
+  415  gzip jre-8u101-linux-x64.
+  416  gzip jre-8u101-linux-x64.tar.gz
+  417  unzip jre-8u101-linux-x64.tar.gz
+  418  rpm -i jre-8u101-linux-x64.rpm
+  419  tar xvf jre-8u101-linux-x64.tar.gz
+  420  ls -alt
+  421  rm -rf jre-7u80-linux-x64.rpm jre-8u101-linux-x64.tar.gz
+  422  ls -alt
+  423  rm -rf jre-8u101-linux-x64.rpm
+  424  ls
+  425  cd jre1.8.0_101/
+  426  ls -alt
+  427  cd bin/
+  428  ls
+  429  cd ..
+  430  find -name *.bin
+  431  ls
+  432  cd bin/
+  433  ls
+  434  ls java
+  435  yum install jre*
+  436  jobs
+  437  hobs
+  438  jobs
+  439  fg
+  440  job
+  441  man jobs
+  442  top
+  443  yum remove java*
+  444  netstat -s
+  445  clear
+  446  cd /home/hpuser/OO/
+  447  ls
+  448  rpm -ivh jre-8u101-linux-x64.rpm
+  449  ls /
+  450  ls /bin/ | grep java
+  451  ls bin
+  452  ls
+  453  cd jre1.8.0_101/
+  454  ls
+  455  cd bin/
+  456  ls
+  457  ls java
+  458  ls -alt
+  459  mkdir /bin/java
+  460  ls /bin/
+  461  cd java
+  462  /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/installer-                                                                                                                     linux64.bin
+  463  ls /bin/ | grep bzip2
+  464  yum install bzip2
+  465  /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/installer-                                                                                                                     linux64.bin
+  466  cd /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  467  ls
+  468  clear
+  469  bash installer-linux64.bin
+  470  yum install java*
+  471  bash installer-linux64.bin
+  472  yum install gtk
+  473  yum update
+  474  yum upgrade
+  475  yum groupinstall "Development Tools"
+  476  bash installer-linux64.bin
+  477  yum install libgtk
+  478  wget http://ftp.gnome.org/pub/gnome/sources/gtk+/3.18/gtk+-3.18.9.tar.xz
+  479  ls
+  480  mv gtk+-3.18.9.tar.xz ./../
+  481  ls
+  482  cd ..
+  483  ls
+  484  tar xvf gtk+-3.18.9.tar.xz
+  485  cd gtk+-3.18.9
+  486  cd gtk+-3.18.9/
+  487  ls
+  488  pwd
+  489  ls
+  490  less README
+  491  less INSTALL
+  492  ./configure
+  493  make
+  494  ./configure
+  495  less INSTALL
+  496  make install
+  497  less INSTALL
+  498  make
+  499  less INSTALL
+  500  make configure
+  501  ./config
+  502  ./configure
+  503  yum install glib*
+  504  ./configure
+  505  yum remove glib*
+  506  ./configure
+  507  yum install glib-2.0
+  508  yum list glib*
+  509  ./config
+  510  ./configure
+  511  reboot now
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd /home/
+  516  cd /home/hpuser/OO/
+  517  ls
+  518  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  519  ls
+  520  w
+  521  bash installer-linux64.bin
+  522  ps
+  523  top
+  524  ls
+  525  yum install make gcc
+  526  w
+  527  yum install atk
+  528  yum install glib
+  529  yum search gtk
+  530  yum install gtk3-devel.x86_64
+  531  yum remove gtk3-devel.x86_64
+  532  clear
+  533  bash /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/insta                                                                                                                     ller-linux64.bin
+  534  ls
+  535  yum search gtk
+  536  cd /home/hpuser/OO/gtk+-3.18.9
+  537  ls
+  538  ./configure
+  539  w
+  540  cd /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  541  ls -alt
+  542  bash installer-linux64.bin
+  543  ls
+  544  yum list nfs*
+  545  yum remove glib*
+  546  glib --help
+  547  man glib
+  548  ww
+  549  c
+  550  w
+  551  glib
+  552  glibc
+  553  ldd -- version
+  554  yum list glib
+  555  yum list glibc
+  556  yum list gtk+*
+  557  yum list gtk+
+  558  yum list gtk*
+  559  yum update
+  560  gpk-update-viewer
+  561  yum update *
+  562  yum list libgtk*
+  563  yum list gtk*
+  564  yum install gtk*
+  565  reboot now
+  566  ls
+  567  cd /home/hpuser/OO/
+  568  ls -alt
+  569  cd gtk+-3.18.9
+  570  ls
+  571  less INSTALL
+  572  ls
+  573  bash /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/insta                                                                                                                     ller-linux64.bin
+  574  startx
+  575  yum group lsit
+  576  yum group list
+  577  yun groupinstall 'Server with GUI'
+  578  yum groupinstall 'Server with GUI'
+  579  reboot now
+  580  yum groupinstall 'X Window System' 'GNOME'
+  581  startx
+  582  systemctl set-default graphical.target
+  583  reboot now
+  584  sl
+  585  yum gouplist
+  586  yum grouplist
+  587  startx
+  588   bash /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/inst                                                                                                                     aller-linux64.bin
+  589  exit
+  590  startx
+  591  ps -xa
+  592  ps -xa|grep X
+  593  kill 1636
+  594  ps -xa|grep X
+  595  reboot
+  596  w
+  597  systemctl set-default multi-user.target
+  598  reboot now
+  599  ps -xa\
+  600  ps -xa
+  601  cd /etc/
+  602  ls
+  603  grep ttyv *
+  604  ps -xa
+  605  grep -v ttyv1 *
+  606  grep  ttyv1 *
+  607  grep  ttyv1 -r *
+  608  grep  tty -r *
+  609  exit
+  610  passwd hpuser
+  611  login hpuser
+  612  exit
+  613  yum search mysql
+  614  yum search mysqld
+  615  yum search postgre
+  616  yum install postgresql-server
+  617  psql
+  618  psql -h host -p 5900 -U username database
+  619  psql -h host 127.0.0.1 -p 5900 -U username database
+  620  psql -h host localhost -p 5900 -U username database
+  621  psql
+  622  Is the server running locally and accepting
+  623          connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5                                                                                                                     432"?
+  624  Is the server running locally and accepting
+  625          connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5                                                                                                                     432"?
+  626  netstat -nlp | grep 5432
+  627  yum remove postgresql*
+  628  yum install postgresql94-server
+  629  yum list postgresql*
+  630  yum install postgresql.i686
+  631  psql
+  632  ln -s /tmp/.s.PGSQL.5432 /var/run/postgresql/.s.PGSQL.5432
+  633  psql
+  634  ln -s /tmp/.s.PGSQL.5432 /var/run/postgresql/.s.PGSQL.5432
+  635  export LC_ALL="en_US.UTF-8"
+  636  psql
+  637  iptables -F
+  638  psql
+  639  service postgre start
+  640  ps auwwx|grep postg
+  641  export PGHOST=localhost
+  642  pqsl
+  643  psql
+  644  ps auwwx|grep postg
+  645  psql -p port 5463
+  646   mkdir /var/pgsql_socket/
+  647  ln -s /private/tmp/.s.PGSQL.5432 /var/pgsql_socket/
+  648  pqsl
+  649  psql
+  650  iptables -F
+  651  psql
+  652  psql: could not connect to server: Connection refused
+  653          Is the server running on host "localhost" (::1) and accepting
+  654          TCP/IP connections on port 5432?
+  655  could not connect to server: Connection refused
+  656          Is the server running on host "localhost" (127.0.0.1) and accepti                                                                                                                     ng
+  657          TCP/IP connections on port 5432?
+  658  yum remove postgre*
+  659  yum search mysql57-community-release-el7
+  660  yum search mysql
+  661  yum install mysqld
+  662  yum install mysql
+  663  mysql
+  664  ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/                                                                                                                     var/lib/mysql/mysql.sock' (2)
+  665  mysql -h 127.0.0.1
+  666  mysql -h localhost
+  667  service mysqld start
+  668  ps -afux |grep maria
+  669  ps -afux |grep mysql
+  670  ps -afux |grep mys
+  671  mysql start
+  672  mysql startERROR 2002 (HY000): Can't connect to local MySQL server throug                                                                                                                     h socket '/var/lib/mysql/mysql.sock' (2)
+  673  sudo find / -type s
+  674  find / -name mysql
+  675  ls
+  676  cd
+  677  ls
+  678  cd ..
+  679  cd /home/hpuser/OO/
+  680  ls
+  681  wget http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm
+  682  ls
+  683  yum remove mysql*
+  684  yum remove mariadb*
+  685  rpm -i mysql57-community-release-el7-7.noarch.rpm
+  686  yum search mysql 5.7.9
+  687  yum install mysql-community-server.x86_64
+  688  mysql
+  689  ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/                                                                                                                     var/lib/mysql/mysql.sock' (2)
+  690  mysql -h 127.0.0.1 -P 3306 -u root
+  691  vi /etc/my.cnf
+  692  mysql -h 127.0.0.1 -P 3306 -u root
+  693  mysql
+  694  vi /etc/my.cnf
+  695  ps -ef | grep mysql
+  696  /etc/init.d/mysql start
+  697  service mysql start
+  698  mysql
+  699  ps -xa
+  700  startx
+  701  xclock
+  702  yum install xclock
+  703  xclockl
+  704  xclock
+  705  cd /home/
+  706  ls
+  707  cd hpuser/OO/
+  708  ls
+  709  cd HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  710  ls
+  711  ls la
+  712  ls -la
+  713  ./installer-linux64.bin --help
+  714  ./installer-linux64.bin
+  715  startx
+  716  ls
+  717  ls -la
+  718  yum search post
+  719  yum search postgr
+  720  systemctl \
+  721  systemctl postgre
+  722  systemctl postgres
+  723  man systemctl
+  724  systemctl -a
+  725  systemctl -a|grep pos
+  726  systemctl restart postgresql-9.4.service
+  727  man systemctl
+  728  man systemctl
+  729  pgadmin
+  730  psql
+  731  man psql
+  732  psql -U postgres
+  733  psql -U postgres -p
+  734  ls
+  735  w
+  736  login hpuser
+  737  ifconfig
+  738  iptables -L
+  739  iptables -F
+  740  iptables -L
+  741  lsof -i4
+  742  cat /etc/services |grep pos
+  743  cat /etc/services |grep postg
+  744  ifconfig
+  745  telnet localhost 16.57.70.142
+  746  telnet localhost 5432
+  747  yum install telnet
+  748  telnet localhost 5432
+  749  netstat -an |grep 5432
+  750  ifconfig
+  751  rpm -al
+  752  rpm -a
+  753  yum search mariad
+  754  ls
+  755  ls -la
+  756  yum search pg
+  757  rpm -la
+  758  rpm -qa
+  759  rpm -qa|grep pg
+  760  rpm -qa|grep postgr
+  761  rpm -al postgresql94-server-9.4.9-1PGDG.rhel7.x86_64
+  762  rpm -ql postgresql94-server-9.4.9-1PGDG.rhel7.x86_64
+  763  rpm -ql postgresql94-server-9.4.9-1PGDG.rhel7.x86_64|grep conf
+  764  updatedb
+  765  rpm -ql postgresql94-server-9.4.9-1PGDG.rhel7.x86_64|grep conf
+  766  locate postgresql.con
+  767  cd /var/lib/pgsql/9.4/data/
+  768  ls
+  769  ls -la
+  770  vim
+  771  vim  postgresql.conf
+  772  systemctl restart postgresql-9.4.service
+  773  netstat -an |grep 5432
+  774  locate pg_hba
+  775  vim /var/lib/pgsql/9.4/data/pg_hba.conf
+  776  systemctl restart postgresql-9.4.service
+  777  w
+  778  wall "test"
+  779  david
+  780  reboot -r
+  781  reboot now
+  782  cd /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  783  ./installer-linux64.bin
+  784  startx
+  785  yum remove mysql*
+  786  yum install http://yum.postgresql.org/9.4/redhat/rhel-7-x86_64/pgdg-redha                                                                                                                     t94-9.4-1.noarch.rpm
+  787  yum groupinstall "PostgreSQL Database Server 9.4 PGDG"
+  788  /usr/pgsql-9.4/bin/postgresql94-setup initdb
+  789  systemctl start postgresql-9.4.service
+  790  systemctl daemon-reload
+  791  systemctl enable postgresql-9.4.service
+  792  systemctl restart postgresql-9.4.service
+  793  systemctl reload postgresql-9.4.service
+  794  psql
+  795  psql: FATAL:  role "root" does not exist
+  796  psql -h localhost -U postgres
+  797  sudo -u postgres createuser postgre
+  798  -u postgres createuser postgre
+  799  createdb -U postgres oodb
+  800   FATAL:  Peer authentication failed for user "postgres"
+  801  sudo -u postgres psql
+  802  /usr/local/pgsql/bin/psql postgres postgres
+  803  pqsl -U postgres
+  804  psql -U postgres
+  805  psql -u postgres
+  806  sudo -u postgres pqsl
+  807  sudo -u postgres psql
+  808  chown -Rf postgres:postgres /opt/local/var/db/postgresql91/defaultdb
+  809  sudo -u postgres psql
+  810  chmod 700 /opt/local/var/db/postgresql91/defaultdb
+  811  useradd -r -s /bin/false postgres
+  812  service postgresql restart
+  813  service postgresql-9.4 restart
+  814  psql
+  815  psql -u postgres
+  816  su -u postgres psql
+  817  sudo service postgresql-9.4 start
+  818  ps -afux | grep postgre
+  819  psqk
+  820  psql
+  821  psql -u root
+  822  man pqsl
+  823  info psql
+  824  su postgres
+  825  initdb -D /usr/local/pgsql/data
+  826  mkdir /usr/local/pgsql
+  827  chown postgres /usr/local/pgsql
+  828  su postgres
+  829  chown -R postgres:postgres /usr/local/pgsql/data
+  830  mkdir /usr/local/pgsql/data
+  831  chown -R postgres:postgres /usr/local/pgsql/data
+  832  su postgres
+  833  startx
+  834  w
+  835  what
+  836  login pts/0
+  837  screen -ls
+  838  clear
+  839  exit
+  840  who
+  841  w
+  842  exit
+  843  who
+  844  w
+  845  exit
+  846  wl
+  847  w
+  848  who
+  849  ps ax | grep pts*
+  850  ps ax | grep tty*
+  851  ps -t pts*
+  852  w
+  853  ps -t pts/0 --forest
+  854  strace -f -e execve -p 3965
+  855  screen -ls
+  856  screen
+  857  yum install screen.x86_64
+  858  screen -ls
+  859  yum install screen
+  860  screee
+  861  screen
+  862  ps
+  863  ps ax
+  864  ps aux | grep tty
+  865  ps aux | grep pts
+  866  strace -p3965 -s9999 -e write
+  867  jobs
+  868  who
+  869  write root pts/0
+  870  fg "%strace"
+  871  write root pts/0
+  872  fg 1
+  873  exit
+  874  cd /home/hpuser/OO/HP_OO_Product_SW_and_Doc_10.60_MLU_T9030-15016/
+  875  bash installer-linux64.bin
+  876  startx
+  877  bash installer-linux64.bin
+  878  ls
+  879  cd /opt/
+  880  ls
+  881  cd hpe/
+  882  ls
+  883  cd oo
+  884  ls
+  885  cd central/bin/
+  886  ls
+  887  central start
+  888  ./central start
+  889  yum install links
+  890  links https://localhost:8443
+  891  links https://localhost:8080
+  892  pwd
+  893  lss
+  894  ls
+  895  ps -xau
+  896  ps -xauww
+  897  ls
+  898  telnet localhost 8080
+  899  ifconfig
+  900  nc
+  901  telnet localhost 8080
+  902  lynx
+  903  yum install lynx
+  904  yum search lynx
+  905  yum search links
+  906  links localhost:8080
+  907  lsof -i4
+  908  cat /etc/services |grep 8080
+  909  cat /etc/services |grep 8443
+  910  lsof -i6
+  911  netstat -an |grep 8080
+  912  ifconfig
+  913  systemctl
+  914  systemctl iptables
+  915  systemctl -a
+  916  iptables -F
+  917  ps -xa
+  918  netstat 0an
+  919  dhclient eth0
+  920  ifconfig
+  921  netstat -an |grep inet
+  922  netstat -an |grep web
+  923  netstat -an |grep 8080
+  924  links
+  925  echo $HTTP_PROXY
+  926  echo $HTTPS_PROXY
+  927  links whatismyipaddress.com
+  928  ifconfig
+  929  links
+  930  cat /etc/hosts
+  931  ping6 localhost6
+  932  links http://localhost6:8080
+  933  c
+  934  No
+  935  write
+  936  write root pts/2
+  937  echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
+  938  echo 1 > /proc/sys/net/ipv6/conf/default/disable_ipv6
+  939  vim /etc/sysctl.conf
+  940  ifconfig
+  941  dhclient eth0
+  942  reboot
+  943  ps -afux |grep  tty
+  944  ps -afux |grep  t
+  945  ps -afux |grep  tt
+  946  startx
+  947  xclock
+  948  cd /var/log/p
+  949  cd /usr
+  950  locate pg_hba
+  951  cd /var/lib/pgsql/9.4/data/
+  952  \ls
+  953  cd pg_log
+  954  ls
+  955  tail -f postgresql-Thu.log
+  956  locate pg_hba
+  957  cat /var/lib/pgsql/9.4/data/pg_hba.conf
+  958  tail -f postgresql-Thu.log
+  959  vim /var/lib/pgsql/9.4/data/pg_hba.conf
+  960  locate ident
+  961  man ident
+  962  netstat -an |grep 123
+  963  netstat -an |grep ident
+  964  man ident
+  965  vim /var/lib/pgsql/9.4/data/pg_hba.conf
+  966  pqsql
+  967  psql
+  968  psql -U postgres
+  969  su postgres
+  970  tail -f postgresql-Thu.log
+  971  vim /var/lib/pgsql/9.4/data/pg_hba.conf
+  972  service postgresql-9.4 restart
+  973  tail -f postgresql-Thu.log
+  974  systemctl start gdm.service
+  975  lsof |grep 8885
+  976  lsof |grep 8445
+  977  netstat |grep 8445
+  978  netstat |gdm
+  979  ps -afux operation
+  980  ps -afux | grep operation
+  981  ps -afux | grep gdm
+  982  ifconfig
+  983  cd /opt/hpe/oo/
+  984  cd central/
+  985  ls
+  986  cd bin/
+  987  ls
+  988  pwd
+  989  /opt/hpe/oo/central/bin/central
+  990  /opt/hpe/oo/central/bin/central status
+  991  /opt/hpe/oo/central/bin/central start
+  992  ps -xauww|grep 3075
+  993  netstat -an |grep 8080
+  994  ifconfig
+  995  netstat -an |grep 8443
+  996  iptables -F
+  997  history
+[root@psvm63 ~]# netstat -tulpn
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:1002            0.0.0.0:*               LISTEN      2026/python
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      2672/dnsmasq
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1424/sshd
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1447/cupsd
+tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN      1994/postgres
+tcp6       0      0 :::1002                 :::*                    LISTEN      2026/python
+tcp6       0      0 :::22                   :::*                    LISTEN      1424/sshd
+tcp6       0      0 :::5432                 :::*                    LISTEN      1994/postgres
+udp        0      0 0.0.0.0:48972           0.0.0.0:*                           800/avahi-daemon: r
+udp        0      0 192.168.122.1:53        0.0.0.0:*                           2672/dnsmasq
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           2672/dnsmasq
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           721/chronyd
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           800/avahi-daemon: r
+udp6       0      0 ::1:323                 :::*                                721/chronyd
+[root@psvm63 ~]# /opt/hpe/oo/central/bin/central start
+Starting HPE Operations Orchestration Central...
+rm: cannot remove ‘/opt/hpe/oo/central/bin/./HPOOCentral.pid’: Read-only file system
+Removed stale pid file: /opt/hpe/oo/central/bin/./HPOOCentral.pid
+wrapper  | Base configuration file is /opt/hpe/oo/central/conf/central-wrapper.conf
+wrapper  | Found #include file in /opt/hpe/oo/central/conf/central-wrapper.conf: %CENTRAL_HOME%/conf/wrapper-central-license.conf
+wrapper  |   After environment variable replacements: /opt/hpe/oo/central/conf/wrapper-central-license.conf
+wrapper  |   Reading included configuration file, /opt/hpe/oo/central/conf/wrapper-central-license.conf
+Waiting for HPE Operations Orchestration Central...
+rm: cannot remove ‘/opt/hpe/oo/central/bin/./HPOOCentral.pid’: Read-only file system
+Removed stale pid file: /opt/hpe/oo/central/bin/./HPOOCentral.pid
+WARNING: HPE Operations Orchestration Central may have failed to start.
+[root@psvm63 ~]# cat /opt-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+cat: /o: No such file or directory
+[root@psvm63 ~]# cat /opt/hp-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+^C
+[root@psvm63 ~]# ^C
+[root@psvm63 ~]# ls -bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system
+g^C
+[root@psvm63 ~]# ls /opt-bash: cannot create temp file for here-document: Read-only file system
+-bash: cannot create temp file for here-document: Read-only file system                                                                                                                         ^C
+[root@psvm63 ~]# ^C
+[root@psvm63 ~]# ^C
+[root@psvm63 ~]# cd /opt/hpe/oo/centra/
+-bash: cd: /opt/hpe/oo/centra/: No such file or directory
+[root@psvm63 ~]# cd /opt
+[root@psvm63 opt]# ls
+hpe  LinuxCOE  opsware  rh
+[root@psvm63 opt]# cd hpe-bash: cannot create temp file for here-document: Read-only file system
+
+[root@psvm63 hpe]# cd hpe
+-bash: cd: hpe: No such file or directory
+[root@psvm63 hpe]# cd /hpe
+-bash: cd: /hpe: No such file or directory
+[root@psvm63 hpe]# cd /hpe/
+-bash: cd: /hpe/: No such file or directory
+[root@psvm63 hpe]# cd hpe/
+-bash: cd: hpe/: No such file or directory
+[root@psvm63 hpe]# cd hpe
+-bash: cd: hpe: No such file or directory
+[root@psvm63 hpe]# reboot -r now
+reboot: invalid option -- 'r'
+[root@psvm63 hpe]# reboot now
