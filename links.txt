@@ -39,6 +39,9 @@ https://drive.google.com/drive/folders/0BzL-2AZH17i8V0E5aGowN0NMQWc
 http://www.aiotestking.com/HP/category/exam-hp0-m33-operations-orchestration-9-x-software/page/7/
 http://www.examcollection.com/hp.html
 
+
+
+microfocus software		  https://home.software.microfocus.com/myaccount/?TENANTID=0#/myProducts
 softaware from hpe        https://h20575.www2.hpe.com/usbportal/fulfillment/getsoftwareaction.do?lc=EN_US&said=101630962382
 validate portal   	      https://softwaresupport.hp.com/group/softwaresupport/validate-employee
 software support OO       https://softwaresupport.hpe.com/
@@ -70,6 +73,9 @@ vacation leave 		- 	http://vacation.bgr.hp.com/  60091120 / oldComputerPassword
 					-	https://myschedule.bgr.hp.com/vacation/ 
 					-	 http://myschedule.swinfra.net/ the very new
 documentation		-	https://hpln.hpe.com/product/operations-orchestration/resources/documentation
+
+openAir				-	https://www.openair.com/index.pl?_sso=1;r=Xt0uPGS4080
+
 how to change root password on CentOs 	-	
 CoreOS https://coreos.com/os/docs/latest/customizing-docker.html
 AWS pfd answers	-	https://drive.google.com/drive/folders/0B-ob6L_QjGLpNHAybDNCczFiLTg 
@@ -88,6 +94,7 @@ expense report  new					https://eem.houston.hpecorp.net/eemsw/login.do?task=1
 			
 Bulgaria Zdrave					-   Всеки вторник и петък: 10:00 - 11:30 
 target every year				-   https://hpenterprise.sharepoint.com/teams/catalog 
+Workday							-	https://wd5.myworkday.com/microfocus/d/task/2998$2739.htmld#TABINDEX=0&SUBTABINDEX=0
 
 directoryworks					- 	https://directoryworks.hpecorp.net/ 
 request a skype phone number	-	https://myitsupport.ext.hpe.com/myITsupport/ITSArticle?ArticleNumber=000004054  
